@@ -1,5 +1,7 @@
 Below are answers to some questions from the tutorials below: https://reactjs.org/tutorial/tutorial.html#wrapping-up
+
 Thanks this guy for solutions: https://github.com/DusanSacha/react-fb-tutorial
+
 These questions was so hard for beginner :(
 
 1. Display the location for each move in the format (col, row) in the move history list.
