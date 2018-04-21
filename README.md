@@ -64,7 +64,7 @@ When the change order button is clicked, it will trigger toggleOrder function an
 
 We need to sort the move history list based on the ascendingOrder value.
 
-Remember when we map the history, we have the key attribute with index value from the map in every li e.g <li key={index}>
+Remember when we map the history, we have the key attribute with index value from the map in every li e.g `<li key={index}>`
 
 We will sort the moves by the key.
   
