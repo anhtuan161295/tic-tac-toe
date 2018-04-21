@@ -4,7 +4,7 @@ Thanks this guy for solutions: https://github.com/DusanSacha/react-fb-tutorial
 
 These questions was so hard for beginner :(
 
-1. Display the location for each move in the format (col, row) in the move history list.
+> 1. Display the location for each move in the format (col, row) in the move history list.
 
 In 3rd questions, we already made the 2 for loop to render a board.
 
@@ -24,7 +24,7 @@ When square is clicked, we store the row and column value of the square in the s
 
 Then we have the row and column value now.
 
-2. Bold the currently selected item in the move list.
+> 2. Bold the currently selected item in the move list.
 
 When we selected the item in move list, we called jumpTo function.
 
@@ -40,7 +40,7 @@ What we need to do is compare the stepNumber with an index from the map.
 
 We need a boolean value to store the compare result and add an CSS class to bold the currently selected item.
 
-3. Rewrite Board to use two loops to make the squares instead of hardcoding them.
+> 3. Rewrite Board to use two loops to make the squares instead of hardcoding them.
 
 Board class need 2 for loop to make a board with x row and y column.
 
@@ -52,7 +52,7 @@ We also need to add the counter to identify the squares.
 
 In calculateWinner function, it calculate winner from 0 so the counter will begin from 0.
 
-4. Add a toggle button that lets you sort the moves in either ascending or descending order.
+> 4. Add a toggle button that lets you sort the moves in either ascending or descending order.
 
 We need a change order button and a function when the button is clicked.
 
@@ -70,7 +70,7 @@ We will sort the moves by the key.
   
 We sort descending when ascendingOrder = false
 
-5. When someone wins, highlight the three squares that caused the win.
+> 5. When someone wins, highlight the three squares that caused the win.
 
 To catch the event win, we need an function aka calculateWinner function.
 
@@ -90,7 +90,7 @@ We need to pass the compare result to the square.
 
 To highlight the square we need to add an CSS class to square, we get the compare result from props to know when to add an CSS class.
 
-6. When no one wins, display a message about the result being a draw.
+> 6. When no one wins, display a message about the result being a draw.
 
 When the result is a draw, it means all 9 squares are filled with value. 
 
