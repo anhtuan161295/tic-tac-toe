@@ -1,3 +1,6 @@
+## Notes
+This project is an attempt to create a tic-tac-toe game.
+
 Below are answers to some questions from the tutorials below: https://reactjs.org/tutorial/tutorial.html#wrapping-up
 
 Thanks this guy for solutions: https://github.com/DusanSacha/react-fb-tutorial
